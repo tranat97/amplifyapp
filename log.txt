@@ -1,0 +1,45 @@
+2021-07-18T13:34:53.916Z [INFO]: Git SSH Key acquired
+2021-07-18T13:34:53.988Z [INFO]: # Cloning repository: git@github.com:tranat97/amplifyapp.git
+2021-07-18T13:34:53.996Z [INFO]: Agent pid 136
+2021-07-18T13:34:54.029Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-07-18T13:34:54.290Z [INFO]: Cloning into 'amplifyapp'...
+2021-07-18T13:34:54.529Z [INFO]: Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+2021-07-18T13:34:54.771Z [INFO]: # Switching to commit: eda95d55799b4d32db34984066ba6c5ae4753cca
+2021-07-18T13:34:54.775Z [WARNING]: !Error: ENOENT: no such file or directory, open '/codebuild/output/src711581373/src/amplifyapp/amplify.yml'
+2021-07-18T13:34:54.799Z [INFO]: # Retrieving environment cache...
+2021-07-18T13:34:54.801Z [INFO]: Agent pid 149
+2021-07-18T13:34:54.802Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+                                 Note: switching to 'eda95d55799b4d32db34984066ba6c5ae4753cca'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at eda95d5 added api interaction
+2021-07-18T13:34:54.807Z [INFO]: Successfully cleaned up Git credentials
+2021-07-18T13:34:54.807Z [INFO]: # Checking for Git submodules at: /codebuild/output/src711581373/src/amplifyapp/.gitmodules
+2021-07-18T13:34:54.872Z [INFO]: # Retrieved environment cache
+2021-07-18T13:34:54.909Z [WARNING]: !!! Failed to set up process.env.secrets, trying to use current environment variables
+2021-07-18T13:34:54.909Z [WARNING]: !User: arn:aws:sts::073653171576:assumed-role/AemiliaControlPlaneLambda-CodeBuildRole-1PJH7JZRIQRPI/AWSCodeBuild-5833f607-a5d2-4c3e-8190-72fcdfdc8a50 is not authorized to perform: ssm:GetParametersByPath on resource: arn:aws:ssm:us-east-1:073653171576:parameter/amplify/d1zc4kf4q5l39f/staging/
+2021-07-18T13:34:54.910Z [INFO]: # Ensuring NPM package '@aws-amplify/cli' is version: '5.1.2'
+2021-07-18T13:35:00.265Z [INFO]: # Patching NPM package '@aws-amplify/cli' from 4.29.4 to 5.1.2...
+2021-07-18T13:35:46.943Z [INFO]: # Done patching NPM package '@aws-amplify/cli'
+2021-07-18T13:35:56.667Z [INFO]: ## Starting Backend Build
+                                 # Starting phase: build
+2021-07-18T13:35:59.411Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2021-07-18T13:36:05.242Z [INFO]: [0mError: AWS access credentials can not be found.[0m
+                                 [0m    at newUserCheck (/root/.nvm/versions/node/v12.21.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation/src/configuration-manager.ts:688:13)[0m
+                                 [0m    at Object.init (/root/.nvm/versions/node/v12.21.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation/src/configuration-manager.ts:77:11)[0m
+                                 [0m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+                                 [0m    at Object.run (/root/.nvm/versions/node/v12.21.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation/src/initializer.ts:24:3)[0m
+2021-07-18T13:36:05.242Z [HELP]: You do not have a role attached to your app
+2021-07-18T13:36:05.257Z [ERROR]: !!! Build failed
+2021-07-18T13:36:05.257Z [ERROR]: !!! Non-Zero Exit Code detected
+2021-07-18T13:36:05.257Z [INFO]: # Starting environment caching...
+2021-07-18T13:36:05.258Z [INFO]: # Uploading environment cache artifact...
+2021-07-18T13:36:05.342Z [INFO]: # Environment caching completed
+Terminating logging...
